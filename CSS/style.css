@@ -3,15 +3,17 @@
   padding: 0;
   box-sizing: border-box; }
 
-.nav .listaLinks li {
-  color: darkgoldenrod; }
+.nav {
+  background-color: #D4A0A7; }
+  .nav .listaLinks li {
+    color: #C84630; }
 
 #main {
   background-color: black; }
   #main h1 {
     color: wheat; }
   #main div {
-    color: white; }
+    color: #5DA271; }
     #main div a {
       color: white;
       background-color: cadetblue;
