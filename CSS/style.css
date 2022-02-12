@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.nav .listaLinks li {
+  color: darkgoldenrod; }
+
+#main {
+  background-color: black; }
+  #main h1 {
+    color: wheat; }
+  #main div {
+    color: white; }
+    #main div a {
+      color: white;
+      background-color: cadetblue;
+      padding: 10px;
+      font-size: 35px; }
+      #main div a:hover {
+        background-color: crimson; }
+
+#mainBlog {
+  color: white;
+  background-color: darkolivegreen; }
+
+footer {
+  width: 100%;
+  background-color: blue;
+  color: darkgoldenrod;
+  height: 10vh; }
+
+.btnGrande {
+  font-size: 26px;
+  padding: 20px;
+  background-color: cadetblue; }
+
+.btnMediano {
+  font-size: 18px;
+  padding: 15px;
+  background-color: cadetblue; }
