@@ -47,15 +47,11 @@
 
 .bodyIndex {
   height: 100vh;
-  background-color: #5DA271;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center; }
+  background-color: #5DA271; }
   .bodyIndex h1 {
     font-size: 1.5em;
     font-style: none;
-    color: white;
+    color: black;
     background-color: #D4A0A7;
     text-align: center;
     margin-bottom: 10px; }
@@ -65,9 +61,40 @@
     border: solid 15px #5DA271;
     margin-left: 25%; }
 
-#mainBlog {
+.bodyRecipes {
+  background-color: black;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; }
+
+.fondoRecipes {
+  background-image: url("../img/fondoRecipes.jpg");
+  background-size: 90%;
+  background-position: center;
+  background-repeat: no-repeat; }
+
+.sectionRecetas {
+  display: flex;
+  align-items: stretch;
+  margin: 40px;
+  padding: 30px;
+  justify-content: space-evenly;
+  align-content: flex-end;
+  flex-direction: column; }
+
+h3 {
+  font-size: 25px;
+  font-weight: bold;
   color: white;
-  background-color: darkolivegreen; }
+  background-color: rgba(0, 0, 0, 0.5);
+  text-align: center; }
+
+.tartas {
+  display: flex; }
+
+.muffins {
+  display: flex; }
 
 footer {
   background-color: #898989;
