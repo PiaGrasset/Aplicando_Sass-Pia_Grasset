@@ -1,0 +1,40 @@
+.bodyRecipes {
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.fondoRecipes {
+    background-image: url("../img/fondoRecipes.jpg");
+    background-size: 90%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.sectionRecetas {
+    display: flex;
+    align-items: stretch;
+    margin: 40px;
+    padding: 30px;
+    justify-content: space-evenly;
+    align-content: flex-end;
+    flex-direction: column;
+}
+
+h3 {
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center
+}
+
+.tartas {
+    display: flex;
+}
+
+.muffins {
+    display: flex;
+}
