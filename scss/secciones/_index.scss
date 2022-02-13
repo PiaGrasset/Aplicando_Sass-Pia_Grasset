@@ -1,25 +1,6 @@
-// #main {
-//     background-color: black;
-//     h1 {
-//         color: wheat;
-//     }
-//     div {
-//         color: $verde;
-
-//             a {
-//                 color: white;
-//                 background-color: cadetblue;
-//                 padding: 10px;
-//                 font-size: 35px;
-//                 &:hover{
-//                     background-color: crimson;
-//                 }
-//             }
-//     }
-// }
-
 .bodyIndex {
-    background-color: black;
+    height: 100vh;
+    background-color: $verde;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -30,13 +11,13 @@
             color: white;
             background-color: $rosa;
             text-align: center;
+            margin-bottom: 10px;
         }
         iframe {
-            display: inline-block;
+            height: 60vh;
+            width: 100vh;
             border: solid 15px $verde;
-            margin-top: 30px;
-            margin-bottom: 30px;
-            margin-left: 36%;
-        }
+            margin-left: 25%;
+            }
 }
 

@@ -7,25 +7,27 @@
 .header {
   background-color: #898989;
   display: flex;
-  height: 30vh;
+  height: 25vh;
   flex-direction: row;
   align-items: center; }
   .header a {
     margin: 2vh;
-    width: 150px;
     position: relative;
-    top: 4vh; }
+    left: 2.5vh;
+    top: 2vh; }
+    .header a img {
+      width: 20vh; }
   .header h2 {
-    font-size: 80px;
+    font-size: 3rem;
     font-weight: bold;
-    color: white;
+    color: black;
     position: relative;
-    top: 6vh;
-    left: 3vh; }
+    top: 2vh;
+    left: 2vh; }
   .header nav {
     position: relative;
-    top: 5vh;
-    left: 35vh;
+    top: 2.5vh;
+    left: 60vh;
     list-style-type: none;
     padding: 10px;
     margin: 0 10px;
@@ -36,22 +38,58 @@
       justify-content: center; }
       .header nav ul a {
         text-decoration: none;
-        color: white;
+        color: black;
         font-size: 30px;
         margin-left: 10px; }
       .header nav ul li :hover {
         font-style: italic;
         color: #5DA271; }
 
+.bodyIndex {
+  height: 100vh;
+  background-color: #5DA271;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; }
+  .bodyIndex h1 {
+    font-size: 1.5em;
+    font-style: none;
+    color: white;
+    background-color: #D4A0A7;
+    text-align: center;
+    margin-bottom: 10px; }
+  .bodyIndex iframe {
+    height: 60vh;
+    width: 100vh;
+    border: solid 15px #5DA271;
+    margin-left: 25%; }
+
 #mainBlog {
   color: white;
   background-color: darkolivegreen; }
 
 footer {
-  width: 100%;
-  background-color: blue;
-  color: darkgoldenrod;
+  background-color: #898989;
   height: 10vh; }
+  footer ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    margin: 0 20px;
+    transition: transform 0, 5s;
+    font-size: 2rem;
+    cursor: pointer; }
+    footer ul a {
+      text-decoration: none;
+      color: black;
+      padding: 4px;
+      margin: 4px; }
+    footer ul a:hover {
+      background-color: #898989;
+      transform: scale(1.2);
+      color: #5DA271;
+      border-radius: 50%; }
 
 .btnGrande {
   font-size: 26px;
