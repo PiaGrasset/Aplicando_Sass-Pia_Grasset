@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+//VARIABLES
+@import './utilidades/colores';
+
+
+//IMPORTACIONES
+@import './header-footer/header';
+@import './secciones/index';
+@import './secciones/blog';
+@import './header-footer/footer';
+@import './utilidades/botones';
