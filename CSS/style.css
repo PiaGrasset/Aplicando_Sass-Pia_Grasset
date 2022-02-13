@@ -1,26 +1,47 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  font-family: sans-serif; }
 
-.nav {
-  background-color: #D4A0A7; }
-  .nav .listaLinks li {
-    color: #C84630; }
-
-#main {
-  background-color: black; }
-  #main h1 {
-    color: wheat; }
-  #main div {
-    color: #5DA271; }
-    #main div a {
-      color: white;
-      background-color: cadetblue;
-      padding: 10px;
-      font-size: 35px; }
-      #main div a:hover {
-        background-color: crimson; }
+.header {
+  background-color: #898989;
+  display: flex;
+  height: 30vh;
+  flex-direction: row;
+  align-items: center; }
+  .header a {
+    margin: 2vh;
+    width: 150px;
+    position: relative;
+    top: 4vh; }
+  .header h2 {
+    font-size: 80px;
+    font-weight: bold;
+    color: white;
+    position: relative;
+    top: 6vh;
+    left: 3vh; }
+  .header nav {
+    position: relative;
+    top: 5vh;
+    left: 35vh;
+    list-style-type: none;
+    padding: 10px;
+    margin: 0 10px;
+    cursor: pointer; }
+    .header nav ul {
+      display: flex;
+      list-style: none;
+      justify-content: center; }
+      .header nav ul a {
+        text-decoration: none;
+        color: white;
+        font-size: 30px;
+        margin-left: 10px; }
+      .header nav ul li :hover {
+        font-style: italic;
+        color: #5DA271; }
 
 #mainBlog {
   color: white;
